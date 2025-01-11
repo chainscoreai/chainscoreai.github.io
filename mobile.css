@@ -615,6 +615,7 @@
 
     .mobileca {
         display: block;
+        font-size: 7px;
     }
 
     .section3 .inbox {
@@ -901,4 +902,14 @@
     #carusell {
         display: none;
     }
+    .webapp{
+        display: block;
+        margin-top: 98%;
+        margin-inline: auto;
+        position: absolute;
+        z-index: 10000;
+        font-size: 17px;
+        padding: 10px;
+        margin-right: 35%;
+      }
 }

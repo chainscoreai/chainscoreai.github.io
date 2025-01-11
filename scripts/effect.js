@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     var array = []
     array.push(document.getElementById('moto'));
     array.push(document.getElementById('mainbuttons'));
+    
+    array.push(document.getElementById('webapp'));
     array.push(document.getElementById('partners'));
     array.push(document.getElementById('inbox'));
     array.push(document.getElementById('inbox2'));

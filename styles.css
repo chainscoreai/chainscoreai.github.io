@@ -281,6 +281,24 @@ canvas {
   background-color: rgba(0, 0, 0, 0);
 }
 
+
+.buttonstrending {
+  display: inline-flex;
+  left: 0;
+  right: 0;
+  width: fit-content;
+  margin-inline: auto;
+  position: absolute;
+  z-index: 10000;
+  margin-top: 34.5%;
+  gap: 50px;
+  border-style: groove;
+  border-color: rgba(21, 21, 21, 0);
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 @media (min-width: 768px) {
   .button-63 {
     font-size: 24px;
@@ -679,7 +697,8 @@ body {
 }
 
 .botbuttons {
-  margin-top: 65%;
+  margin-top: 55%;
+  margin-bottom: 4%;
 }
 
 @media (min-width: 768px) {
@@ -1165,4 +1184,16 @@ section h3 {
     color: rgb(0, 255, 55);
     /* Back to Red */
   }
+}
+
+
+.webapp{
+  margin: 1%;
+  margin-right: 2%;
+  right: 0;
+  display: block;
+  position: absolute;
+  z-index: 10000;
+  font-size: 17px;
+  padding: 10px;
 }
